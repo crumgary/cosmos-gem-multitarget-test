@@ -1,0 +1,9 @@
+
+# Explicitly define command and telemetry files
+# If not given then all the files in cmd/tlm will be processed in
+# alphabetical order
+COMMANDS cmds.txt
+TELEMETRY tlm.txt
+
+# Automatically substitute the target name in screen definitions
+AUTO_SCREEN_SUBSTITUTE

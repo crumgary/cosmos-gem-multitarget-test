@@ -1,0 +1,5 @@
+
+
+TELEMETRY <%= @target_name %>  TEST_TLM BIG_ENDIAN "Test Telem from the <%= @target_name %> target"
+APPEND_ID_ITEM TELEMID 32 UINT 1 "CCSDS application process id"
+APPEND_ITEM TEMP1            16 UINT     "Temperature #1"
